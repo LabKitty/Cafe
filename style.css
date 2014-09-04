@@ -12,6 +12,10 @@ body{
 a:link, a:hover, a:visited {
 	text-decoration:none;
 }
+@font-face{
+	font-family: "Lato";
+	src:url(Lato.ttf);	
+}
 
 h1{
 	color: #ff0000;
@@ -19,9 +23,79 @@ h1{
 	font-family:Myriad Pro;
 	font-weight:100;
 }
+
+header{
+	height: 120px;
+	background-color:white;
+	margin-top:20px;
+	}
+
 #slogan{
 	color: #787878;
 	font-size: 18 px;
 	font-family:Myriad Pro;
 	font-weight:100;
+	float:left;
+}
+
+#search{
+	float:right;
+}
+#language{
+	color: #303132;
+	text-transform:uppercase;
+	font-size: 11 px;
+	font-family:Lato;
+	float:right;
+}
+
+#navcontainer{
+	float:right;
+}
+#navcontainer a{
+	color:#303132;
+	font-size: 18 px;
+	font-family:Lato;
+
+}
+
+h2{ 
+	color: #ffffff;
+	font-size: 34 px;
+	font-family:Lato;
+	font-weight:100;
+}
+
+#blogcontainer{
+	background-color:black;
+}
+h3{
+	color: #ffffff;
+	font-size: 12 px;
+	font-family:Lato;
+	opacity: 0.3;
+}
+
+#introduction{ 
+	background-color:black;
+	}
+	
+#introduction p{
+	color:#c2c2c2;
+	font-size: 18 px;
+	font-family:Lato;
+	text-align: center;
+}
+#sidebar_left{
+	float:left;
+}
+
+#sidebar_right{
+	float:right;
+}
+
+#sidebar_left p, #sidebar_right p{
+	color:#c2c2c2;
+	font-size: 11 px;
+	font-family:Lato;
 }
