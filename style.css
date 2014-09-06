@@ -31,12 +31,14 @@ h1{
 }
 
 header{
+	padding: 40px 20px 0 20px;
 	height: 120px;
 	background-color:white;
 	margin-top:20px;
 	}
 
 #slogan{
+	
 	color: #787878;
 	font-size: 18px;
 	font-family:Myriad Pro;
@@ -46,24 +48,47 @@ header{
 
 #search{
 	float:right;
+	margin-top:-30px;
+	margin-right: 120px;
 }
+
 #language{
-	color: #303132;
+	padding-right: 10px;
+	margin-top:-30px;
+	color:#787878;
 	text-transform:uppercase;
+	font-weight:bold;
 	font-size: 11px;
 	font-family: 'Lato', sans-serif;
 	float:right;
+}
+
+#language a{
+	padding-right:10px;
+	color:#787878;
+	font-size: 11px;
+	font-weight:bold;
+	font-family: 'Lato', sans-serif;
+}
+
+#language a:hover{
+	color: #303132;
 }
 
 #navcontainer{
 	float:right;
 }
 #navcontainer a{
-	color:#303132;
+	padding-right:10px;
+	color:#787878;
 	font-size: 18px;
+	font-weight:bold;
 	font-family: 'Lato', sans-serif;
-
 }
+#navcontainer a:hover{
+	color: #303132;
+}
+
 
 h2{ 
 	color: white;
@@ -75,6 +100,7 @@ h2{
 #blogcontainer{	
 	float:left;
 	width: 100%;
+	min-height: 650px;
 }
 
 .post{
@@ -107,9 +133,8 @@ h3{
 }
 
 #introduction{ 
-	margin-top: 88px;
+	margin-top:80px;
 	float:left;
-
 }
 #introduction h2{
 	text-align:center;
@@ -122,7 +147,7 @@ h3{
 	text-align: center;
 }
 footer{
-	top:100px;
+
 }
 
 #sidebar_left{
@@ -134,7 +159,17 @@ footer{
 }
 
 #sidebar_left p, #sidebar_right p{
+	padding-bottom: 10px;
 	color:#c2c2c2;
 	font-size: 11px;
 	font-family: 'Lato', sans-serif;
+
+}
+
+#sidebar_left p{
+	padding-left:20px;
+}
+
+#sidebar_right p{
+	padding-right:20px;
 }
