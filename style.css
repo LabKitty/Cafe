@@ -4,14 +4,16 @@
 }
 
 body{
-	width: 1280px;
+	width: 1000px;
 	margin:0 auto;
 	min-height: 700px;
+		background-color:#404040;
 }
 
 a:link, a:hover, a:visited {
 	text-decoration:none;
 }
+
 @font-face{
 	font-family: "Lato";
 	src:url(Lato.ttf);	
@@ -45,7 +47,7 @@ header{
 	color: #303132;
 	text-transform:uppercase;
 	font-size: 11px;
-	font-family:Lato;
+	font-family: 'Lato', sans-serif;
 	float:right;
 }
 
@@ -55,20 +57,19 @@ header{
 #navcontainer a{
 	color:#303132;
 	font-size: 18px;
-	font-family:Lato;
+	font-family: 'Lato', sans-serif;
 
 }
 
 h2{ 
-	color: #ffffff;
+	color: white;
 	font-size: 34px;
-	font-family:Lato;
+	font-family: 'Lato', sans-serif;
 	font-weight:100;
 }
 
 #blogcontainer{	
 	float:left;
-	background-color:black;
 	width: 100%;
 }
 
@@ -84,26 +85,27 @@ h2{
 .post h2{
 	position:abosulute;
 	margin-top: -290px;
-
 	margin-left: 20px;
     bottom: 0;
-
-
+}
+.post h3{
+	padding-top: 170px;
 }
 
 
 h3{
 	color: #ffffff;
 	font-size: 12px;
-	font-family:Lato;
+	font-family: 'Lato', sans-serif;
 	opacity: 0.3;
 	float:right;
 	font-weight:100;
 }
 
 #introduction{ 
+	margin-top: 88px;
 	float:left;
-	background-color:black;
+
 }
 #introduction h2{
 	text-align:center;
@@ -112,8 +114,11 @@ h3{
 #introduction p{
 	color:#c2c2c2;
 	font-size: 18px;
-	font-family:Lato;
+	font-family: 'Lato', sans-serif;
 	text-align: center;
+}
+footer{
+	padding-top: 200px;
 }
 
 #sidebar_left{
@@ -127,5 +132,5 @@ h3{
 #sidebar_left p, #sidebar_right p{
 	color:#c2c2c2;
 	font-size: 11px;
-	font-family:Lato;
+	font-family: 'Lato', sans-serif;
 }
