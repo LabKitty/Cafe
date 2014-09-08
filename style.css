@@ -4,10 +4,9 @@
 }
 
 body{
-	width: 1000px;
 	margin:0 auto;
-
-	background-color:#404040;
+	width: 1000px;
+	background-color:rgba(64, 64, 64);
 	background-image: url(images/background.png);
 	background-repeat: repeat;
     background-attachment: fixed;
@@ -23,84 +22,147 @@ a:link, a:hover, a:visited {
 	src:url(Lato.ttf);	
 }
 
-h1{
-	color: #ff0000;
-	font-size: 34px;
-	font-family:Myriad Pro;
-
+@font-face{
+	font-family: "Montserrat";
+	src:url(Montserrat.ttf);	
+}
+@font-face{
+	font-family: "OpenSans";
+	src:url(OpenSans.ttf);	
 }
 
+
+h1{
+	font-family:Myriad Pro;
+	font-size: 34px;
+	color: rgb(255,0,0);
+}
+
+h2{ 
+	font-family: 'Lato', sans-serif;
+	font-size: 34px;
+	font-weight:100;
+	color: rgb(255,255,255);
+}
+
+h3{
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	opacity: 0.3;
+	float:right;
+	font-weight:100;
+	color: rgb(255,255,255);
+}
+
+h4{
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+	color: rgb(255,255,255);
+}
+
+h5{
+	font-family: 'OpenSans', sans-serif;
+	font-size: 14px;
+	font-weight:100;
+	color: rgb(255,255,255);
+}
+
+p{
+	font-size: 14px;
+	color: rgb(194,194,194);
+}
+	
 header{
+	margin-top:20px;
 	padding: 40px 20px 0 20px;
 	height: 120px;
-	background-color:white;
-	margin-top:20px;
-	}
+	background-color:rgb(255,255,255);
+}
 
 #slogan{
-	
-	color: #787878;
-	font-size: 18px;
-	font-family:Myriad Pro;
-	font-weight:100;
 	float:left;
+	font-family:Myriad Pro;
+	font-size: 18px;
+	font-weight:100;
+	color: rgb(120,120,120);
 }
 
 #search{
 	float:right;
 	margin-top:-30px;
 	margin-right: 120px;
+	border: 1px solid white;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+	
+}
+
+input.border {
+	border-top:0;
+	border-left: 0;
+	border-right:0;
+	border-bottom: 1px solid rgb(64,64,64);
+	border-width: 2px;
+	opacity: 0.3;
+	
+}
+
+input.image{
+	margin-left: -25px;
 }
 
 #language{
-	padding-right: 10px;
-	margin-top:-30px;
-	color:#787878;
-	text-transform:uppercase;
+	float:right;
+	margin-top:-25px;
+	font-family: 'Lato', sans-serif;
 	font-weight:bold;
 	font-size: 11px;
-	font-family: 'Lato', sans-serif;
-	float:right;
+	text-transform:uppercase;
+	color:rgb(120,120,120);
 }
 
 #language a{
 	padding-right:10px;
-	color:#787878;
+	font-family: 'Lato', sans-serif;
 	font-size: 11px;
 	font-weight:bold;
-	font-family: 'Lato', sans-serif;
+	color:rgb(120,120,120);
 }
 
 #language a:hover{
-	color: #303132;
+	color: rgb(48,49,50);
 }
 
-#navcontainer{
+#main_nav{
 	float:right;
+	margin-top:15px;
 }
-#navcontainer a{
+#main_nav a{
 	padding-right:10px;
-	color:#787878;
+	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	font-weight:bold;
-	font-family: 'Lato', sans-serif;
-}
-#navcontainer a:hover{
-	color: #303132;
+	color:rgb(120,120,120);
 }
 
-
-h2{ 
-	color: white;
-	font-size: 34px;
-	font-family: 'Lato', sans-serif;
-	font-weight:100;
+#main_nav a:hover{
+	color: rgb(48,49,50);
 }
 
 #blogcontainer{	
 	float:left;
+	padding-bottom: 70px;
 	width: 100%;
-	min-height: 650px;
+	
+	
+}
+
+#blogcontainer h3{
+	padding-top: 170px;
 }
 
 .post{
@@ -108,46 +170,36 @@ h2{
 	float:left;
 	width: 220px;
 	height: 300px;
-	padding-left:20px;
 	margin-top:60px;
+	padding-left:20px;
+	
 }
 	
 .post h2{
 	position:abosulute;
 	margin-top: -290px;
 	margin-left: 20px;
-    bottom: 0;
-}
-.post h3{
-	padding-top: 170px;
-}
-
-
-h3{
-	color: #ffffff;
-	font-size: 12px;
-	font-family: 'Lato', sans-serif;
-	opacity: 0.3;
-	float:right;
-	font-weight:100;
+  
 }
 
 #introduction{ 
+	float: left;
 	margin-top:80px;
-	float:left;
+	
 }
 #introduction h2{
 	text-align:center;
 }
 
 #introduction p{
-	color:#c2c2c2;
 	font-size: 18px;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
+	color:rgba(194, 194, 194);
 }
 footer{
-
+	padding-bottom:35px;
+ 
 }
 
 #sidebar_left{
@@ -160,10 +212,9 @@ footer{
 
 #sidebar_left p, #sidebar_right p{
 	padding-bottom: 10px;
-	color:#c2c2c2;
-	font-size: 11px;
 	font-family: 'Lato', sans-serif;
-
+	font-size: 11px;
+	color:rgba(194, 194, 194);
 }
 
 #sidebar_left p{
@@ -173,3 +224,97 @@ footer{
 #sidebar_right p{
 	padding-right:20px;
 }
+
+
+/*BLOG PAGE CSS*/
+
+#blog_nav{
+	float:left;
+	height: 60px;
+	margin-left:20px;
+	margin-right: 20px;
+	margin-top: 25px;
+}
+#blog_nav a{
+	padding-right:15px;
+	font-size: 14px;
+	font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
+	color:rgb(120,120,120);
+}
+#blog_nav a:hover{
+	color: white;
+	
+}
+
+
+.post h4{
+	position:abosulute;
+	margin-top: -290px;
+	margin-left: 20px;
+	margin-right: 20px;
+  
+}
+
+/*About*/
+
+#center_nav {
+	margin-left:20px;
+	margin-right: 20px;
+	margin-top: -20px;
+	padding: 15px;
+	text-align:center;
+	background-color: rgba(0, 0, 0, 0.2);
+	
+}
+
+#center_nav a{
+	padding-right:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	color:rgb(120,120,120);
+	
+}
+#center_nav a:hover{
+	color: rgb(255,255,255);
+	
+}
+#about_container{
+	float:left;
+	width: 100%;
+	padding-bottom: 70px;
+}
+
+#about_container p,#about_container ul,  #about_container h5{
+	margin-left: 170px;
+	margin-right: 170px;
+}
+
+#about_container h4{
+	margin-top: 40px;
+	text-align:center;
+
+}
+
+#about_container p{
+	padding-top: 20px;
+	font-family: 'OpenSans', sans-serif;
+	font-size: 14px;
+	
+}
+#about_container h5{
+	padding-top: 45px;
+	
+}
+#about_container li{
+	margin-left: 40px;
+	
+}
+
+#about_container ul {
+	padding-top: 25px;
+	list-style-image: url('images/line.png');
+	font-size: 14px;
+	color: rgb(194,194,194);
+  )
