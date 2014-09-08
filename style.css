@@ -16,7 +16,10 @@ body{
 a:link, a:hover, a:visited {
 	text-decoration:none;
 }
-
+a:visited{
+	color: rgb(120,120,120);
+}
+	
 @font-face{
 	font-family: "Lato";
 	src:url(font/Lato.ttf);	
