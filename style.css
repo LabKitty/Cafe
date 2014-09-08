@@ -197,9 +197,9 @@ input.image{
 	text-align: center;
 	color:rgba(194, 194, 194);
 }
+
 footer{
 	padding-bottom:35px;
- 
 }
 
 #sidebar_left{
@@ -215,12 +215,18 @@ footer{
 
 #sidebar_left p{
 	padding-left:20px;
+	font-family: 'Lato', sans-serif;
+	color:rgba(194,194,194, 0.5);
 }
 
 #sidebar_left a{
+	font-weight:bold;
 	color:rgba(255,255,255, 0.5);
 }
 
+#sidebar_left span{
+	font-weight:bold;
+}
 
 #sidebar_right{
 	float:right;
@@ -228,6 +234,8 @@ footer{
 
 #sidebar_right p{
 	padding-right:20px;
+	font-family: 'Lato', sans-serif;
+	color:rgba(255,255,255, 0.2);
 }
 
 
