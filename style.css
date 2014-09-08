@@ -206,10 +206,6 @@ footer{
 	float:left;
 }
 
-#sidebar_right{
-	float:right;
-}
-
 #sidebar_left p, #sidebar_right p{
 	padding-bottom: 10px;
 	font-family: 'Lato', sans-serif;
@@ -221,9 +217,20 @@ footer{
 	padding-left:20px;
 }
 
+#sidebar_left a{
+	color:rgba(255,255,255, 0.5);
+}
+
+
+#sidebar_right{
+	float:right;
+}
+
 #sidebar_right p{
 	padding-right:20px;
 }
+
+
 
 
 /*BLOG PAGE CSS*/
@@ -286,7 +293,7 @@ footer{
 	padding-bottom: 70px;
 }
 
-#about_container p,#about_container ul,  #about_container h5{
+#about_container p, #about_container ul, #about_container h5{
 	margin-left: 170px;
 	margin-right: 170px;
 }
@@ -314,7 +321,10 @@ footer{
 
 #about_container ul {
 	padding-top: 25px;
-	list-style-image: url('images/line.png');
+	list-style-image: url('images/stripe.png');
 	font-size: 14px;
 	color: rgb(194,194,194);
-  )
+ }
+
+ 
+  
