@@ -19,16 +19,16 @@ a:link, a:hover, a:visited {
 
 @font-face{
 	font-family: "Lato";
-	src:url(Lato.ttf);	
+	src:url(font/Lato.ttf);	
 }
 
 @font-face{
 	font-family: "Montserrat";
-	src:url(Montserrat.ttf);	
+	src:url(font/Montserrat.ttf);	
 }
 @font-face{
 	font-family: "OpenSans";
-	src:url(OpenSans.ttf);	
+	src:url(font/OpenSans.ttf);	
 }
 
 
