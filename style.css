@@ -77,8 +77,16 @@ p{
 header{
 	margin-top:20px;
 	padding: 40px 20px 0 20px;
-	height: 120px;
+	height: 110px;
 	background-color:rgb(255,255,255);
+}
+#left-header{
+	float:left;
+}
+
+#right-header{
+	float:right;
+	padding-right: 20px;
 }
 
 #slogan{
@@ -91,8 +99,8 @@ header{
 
 #search{
 	float:right;
-	margin-top:-30px;
-	margin-right: 120px;
+	margin-right:60px;
+	width: 130px;
 	border: 1px solid white;
 }
 
@@ -112,12 +120,13 @@ input.border {
 }
 
 input.image{
-	margin-left: -25px;
+	float:right;
+	margin-right: -40px;
+	margin-top: -20px;
 }
 
 #language{
 	float:right;
-	margin-top:-25px;
 	font-family: 'Lato', sans-serif;
 	font-weight:bold;
 	font-size: 11px;
@@ -126,7 +135,6 @@ input.image{
 }
 
 #language a{
-	padding-right:10px;
 	font-family: 'Lato', sans-serif;
 	font-size: 11px;
 	font-weight:bold;
@@ -139,8 +147,10 @@ input.image{
 
 #main_nav{
 	float:right;
-	margin-top:15px;
+	margin-top: 40px;
+	margin-right: -275px;
 }
+
 #main_nav a{
 	padding-right:10px;
 	font-family: 'Lato', sans-serif;
@@ -198,8 +208,13 @@ input.image{
 	color:rgba(194, 194, 194);
 }
 
+.line{
+margin-bottom:20px;
+margin-left:20px;
+}
+
 footer{
-	padding-bottom:35px;
+	margin-bottom:35px;
 }
 
 #sidebar_left{
@@ -237,8 +252,6 @@ footer{
 	font-family: 'Lato', sans-serif;
 	color:rgba(255,255,255, 0.2);
 }
-
-
 
 
 /*BLOG PAGE CSS*/
